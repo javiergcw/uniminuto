@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
+import 'package:template_game/modules/game_page.dart';
 import 'package:template_game/presentation/layout/layout_main.dart';
 
 class StartScreen extends StatelessWidget {
@@ -11,7 +12,7 @@ class StartScreen extends StatelessWidget {
       myAppBar: myAppBar(context),
       asideSection: asideSection(),
       profileSection: profileSection(context),
-      gameSection: Container(),
+      gameSection: GamePage(),
     );
   }
 }
